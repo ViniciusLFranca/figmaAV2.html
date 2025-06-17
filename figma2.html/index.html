@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Público - Modal Arquivo</title>
+</head>
+<body>
+
+  <div class="tela">
+      <span class="fechar">&times;</span>
+      <h2>Desenvolvimento e Modernização do Frontend para o Sistema Web Open Connect</h2>
+
+      <div class="separacao">
+        <label for="titulo">Título do Projeto</label>
+        <input class="entrada" type="text" id="titulo" placeholder="Descreva aqui...">
+      </div>
+
+    <div class="separacao">
+      <label for="descricao">Descrição</label>
+      <textarea class="entrada" id="descricao" placeholder="Descreva aqui..."></textarea>
+    </div>
+
+    <div class="visualizacao">
+      <label class="visualizacao-espaco">Visualização</label>
+      <div class="botaos">
+        <input type="radio" id="privado" name="visibilidade" value="privado" hidden>
+        <label for="privado" class="alternar">Privado</label>
+        <input type="radio" id="publico" name="visibilidade" value="publico" hidden checked>
+        <label for="publico" class="alternar">Público</label>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="aposlinha">
+    <button class="botaocriar">Criar</button>
+    <img class="logo" src="Grafo.svg" alt="">
+    </div>
+
+  </div>
+
+</body>
+</html>
