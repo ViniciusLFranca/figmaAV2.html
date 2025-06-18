@@ -1,28 +1,28 @@
 body {
-    font-family: sans-serif;
-    background-color: #f5f5f5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  font-family: sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 /*o blocão onde tudo ta dentro*/
 
 .tela {
-    background: white;
-    width: 400px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    position: relative;
+  background: white;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  position: relative;
 }
 
 .tela h2 {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    text-align: justify;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: justify;
 }
 
 /*o botão de fechar no canto*/
@@ -49,7 +49,6 @@ h1 {
 }
 
 h2 {
-  color: #888;
   margin-bottom: 20px;
 }
 
@@ -86,6 +85,8 @@ p {
 }
 
 .file-section textarea {
+  outline: none;
+  border: 1px solid #4bbba6;
   flex-grow: 1;
   padding: 10px;
   border-radius: 10px;
@@ -123,52 +124,52 @@ p {
 /* linha entre visualização e botão criar*/
 
 hr {
-    border-top: 0px;
-    border-color: #ebebeb;
+  border-top: 0px;
+  border-color: #ebebeb;
 }
 
 /*o botão de criar*/
 
 .aposlinha {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80px;
-    position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  position: relative;
 }
 
 .aposlinha img {
-    width: 20%;
-    position: absolute; 
-    right: 0.0rem;
-    top: 8px;
+  width: 20%;
+  position: absolute; 
+  right: 0.0rem;
+  top: 8px;
 }
 
 .aposlinha button {
-    margin: 0 auto;
-    position: relative;
+  margin: 0 auto;
+  position: relative;
 }
 
 .botaocriar {
-    align-items: center;
-    width: 120px;
-    height: 40px;
-    padding: 10px;
-    margin-left: 40%;
-    background-color: #63d1bc;
-    border: none;
-    border-radius: 8px;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
+  align-items: center;
+  width: 120px;
+  height: 40px;
+  padding: 10px;
+  margin-left: 40%;
+  background-color: #63d1bc;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .botaocriar:hover {
-    background-color: #4bbba6;
+  background-color: #4bbba6;
 }
 
 /*a logo no canto*/
 
 .logo {
-    width: 100px;
+  width: 100px;
 }
