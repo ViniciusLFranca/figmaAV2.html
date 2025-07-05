@@ -25,6 +25,16 @@ body {
   text-align: justify;
 }
 
+/* calendario*/
+
+.calendario {
+  display: flex;
+  position: absolute;
+  top: 15px;
+  right: 50px;  
+  border: #555;
+}
+
 /*o botão de fechar no canto*/
 
 .fechar {
@@ -105,17 +115,29 @@ p {
 
 /*arquivos carregados*/
 
-.arq_caregados {
+.arq_carregados {
   display: flex;
+  border: 1px solid black;
+  align-items: center;
 }
 
 .arq_teste {
   background: #eee;
   padding: 10px 20px;
   border-radius: 10px;  
-  margin-bottom: 10px;
   display: flex;
+  border: 1px solid black;
 }
+
+.botoes {
+  display: flex;
+  border: 1px solid black;
+  justify-content: end; 
+}
+
+.botao1 {
+  font-size: 15px;
+    }
 
 button {
   background: none;
